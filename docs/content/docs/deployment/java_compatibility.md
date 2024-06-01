@@ -73,5 +73,4 @@ The list of configured arguments must not be shortened, but only extended.
 
 ### Known issues
 
-* Java records are not supported. See [FLINK-32380](https://issues.apache.org/jira/browse/FLINK-32380) for updates.
 * SIGSEGV in C2 Compiler thread: Early Java 17 builds are affected by a bug where the JVM can fail abruptly. Update your Java 17 installation to resolve the issue. See [JDK-8277529](https://bugs.openjdk.org/browse/JDK-8277529) for details.
